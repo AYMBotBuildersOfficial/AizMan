@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Username Showcase</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(45deg, #282828, #8a2be2);
+            font-family: 'Arial', sans-serif;
+            color: white;
+            overflow: hidden;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 800px;
+            padding: 20px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        h1 {
+            font-size: 4rem;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.6), 0 0 30px rgba(138, 43, 226, 0.8);
+            margin-bottom: 20px;
+            animation: glow 1.5s ease-in-out infinite alternate;
+        }
+
+        h2 {
+            font-size: 3rem;
+            letter-spacing: 1px;
+            font-weight: 300;
+            text-transform: uppercase;
+            color: #d3d3d3;
+            margin-top: 20px;
+            opacity: 0;
+            animation: fadeInUp 2s forwards 1s;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.5;
+            opacity: 0;
+            animation: fadeInUp 2s forwards 1.5s;
+            color: #d3d3d3;
+            max-width: 700px;
+            margin: 20px auto;
+        }
+
+        .username-container {
+            margin-bottom: 40px;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes glow {
+            0% {
+                text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.6), 0 0 30px rgba(138, 43, 226, 0.8);
+            }
+            100% {
+                text-shadow: 0 0 20px rgba(255, 255, 255, 1), 0 0 40px rgba(138, 43, 226, 1);
+            }
+        }
+
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="username-container">
+            <h1>aizmantapjiwa</h1>
+            <h2>Master Builder | Infantry Specialist | Tactical Genius</h2>
+            <p>The battlefield is a canvas for this tactician. Whether constructing unbreakable defenses or leading infantry with unrivaled precision, <strong>aizmantapjiwa</strong> is always one step ahead, orchestrating movements with unparalleled expertise.</p>
+            <p><strong>Factions:</strong> MBRF, Tyerna, RUDF, Rapid Response, Shadow Coalition</p>
+            <p>A builder who knows the value of a strong foundation, both in the battlefield and in strategy. With mastery in infantry tactics, <strong>aizmantapjiwa</strong> is a force of nature on any terrain. If you find yourself facing them, prepare for a battle where every move counts, and every strategy is calculated to perfection.</p>
+        </div>
+
+        <div class="username-container">
+            <h1>aizsubekti</h1>
+            <h2>Shadow Strategist | Stealth Specialist | Tactical Innovator</h2>
+            <p>The quiet hand that guides from the shadows. <strong>aizsubekti</strong> is the unseen force that manipulates the flow of battle, striking swiftly and decisively. A master of stealth tactics, they outmaneuver enemies with ease, leaving nothing but calculated chaos in their wake.</p>
+            <p><strong>Factions:</strong> MBRF, Tyerna, RUDF, Rapid Response, Shadow Coalition</p>
+            <p>When it comes to subtlety, <strong>aizsubekti</strong> reigns supreme. Known for their ability to slip through enemy lines undetected, they serve as the perfect complement to <strong>aizmantapjiwa</strong>'s battlefield dominance. If <strong>aizmantapjiwa</strong> builds the foundation, <strong>aizsubekti</strong> strikes from the darkness, ensuring victory is secured before the enemy even knows they’ve lost.</p>
+        </div>
+    </div>
+</body>
+</html>
